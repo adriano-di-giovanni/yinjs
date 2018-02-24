@@ -1,0 +1,13 @@
+{
+    "extends": ["standard", "prettier"],
+    "plugins": ["prettier"],
+    "rules": {
+        "prettier/prettier": "error"
+    },
+    "env": {
+        "jasmine": true,
+        "browser": true,
+        "amd": true,
+        "node": true
+    }
+}
